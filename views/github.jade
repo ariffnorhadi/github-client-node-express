@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  h1 GitHub Profile
+  h2= profile.name || profile.login
+  p= profile.bio || 'No bio available'
